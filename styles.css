@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  body {
+    background-image: url("blue-background.png") ;
+    background-size: cover;
+  }
+
+  .img2 {
+    width: 150px;
+    height: 40px;
+  }
+
+  
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: gray;
+  }
+
+  .active {
+    background-color: aqua;
+  }
