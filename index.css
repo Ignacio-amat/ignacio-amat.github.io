@@ -1,4 +1,4 @@
-.box {
+.box1 {
     border-width: 2px;
     border-color: black;
     padding: 25px;
@@ -6,8 +6,14 @@
     width: 25%;
     margin-top: 125px;
     margin-left: 50px;
-    background-image: linear-gradient(pink, #B3FFFD);
+    background-color:lightgray;
   }
 
-
+.image1 {
+  width: 500px;
+  height: 300px;
+  float: right;
+  padding-right: 75px;
+  padding-top: 75px;
+}
   

@@ -8,6 +8,7 @@ ul {
   
   li {
     float: left;
+    position: relative;
   }
   
   li a {
@@ -37,4 +38,14 @@ ul {
 
   .active {
     background-color: aqua;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: left;
   }

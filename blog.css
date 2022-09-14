@@ -1,0 +1,35 @@
+.box1 {
+    border-width: 2px;
+    border-color: black;
+    padding: 25px;
+    float: left;
+    width: 25%;
+    margin-top: 125px;
+    margin-left: 50px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.box2 {
+    border-width: 2px;
+    border-color: black;
+    padding: 25px;
+    float: left;
+    width: 15%;
+    margin-top: 125px;
+    margin-left: 50px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.box3 {
+    border-width: 2px;
+    border-color: black;
+    padding: 25px;
+    float: left;
+    width: 50%;
+    margin-top: 125px;
+    margin-left: 50px;
+    background-color: lightgray;
+    position: relative;
+}
