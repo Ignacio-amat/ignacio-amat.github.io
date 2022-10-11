@@ -1,13 +1,23 @@
 #myProgress {
-    width: 100%;
-    background-color: grey;
+    width: 95%;
+    background-color: white;
+    margin-right: auto;
   }
   
   #myBar {
     width: 50%;
     height: 30px;
-    background-color: #fffb00;
+    background-color: #000000;
     text-align: center; 
     line-height: 30px; 
-    color: black;
+    color: white;
+    padding-right: 10px;
   }
+.placeholderBox {
+  background-color:greenyellow;
+  width: 25%;
+  float:right;
+  margin-right: 38px;
+  text-align: center;
+}
+

@@ -20,7 +20,7 @@ ul {
   }
 
   body {
-    background-image: url("blue-background.png") ;
+    background-image: url('abstract-overlapping-blue-background-free-vector.jpg') ;
     background-size: cover;
   }
 
@@ -37,7 +37,8 @@ ul {
   }
 
   .active {
-    background-color: aqua;
+    background-color: black;
+    color: white;
   }
 
   .footer {
@@ -49,3 +50,33 @@ ul {
     color: white;
     text-align: left;
   }
+
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: black;
+  padding: 10px;
+  margin-top: 10px;
+  width: 1300px;
+  margin: auto;
+
+}
+
+.grid-item {
+  background-color: lightgrey;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.item5 {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}

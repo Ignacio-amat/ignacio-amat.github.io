@@ -8,17 +8,12 @@
     <link rel="stylesheet" href="dashboard.css">
     <title>dashboard</title>
     <style>
-        .dashboard {
-            margin-top: 50px;
-            margin-left: 700px;
-            position: relative;
-        }
         table {
             border: 1px black solid;
             border-collapse: collapse;
             margin-top: 75px;
             margin-left: 300px;
-            background-color: yellow;
+            background-color: white;
             position: relative;
             padding: 15px;;
         }
@@ -28,7 +23,8 @@
         }
 
         thead {
-            background-color: aqua;
+            background-color: black;
+            color: white;
         }
 
         .passed {
@@ -47,10 +43,10 @@
         <li><a class="active" href="dashboard.html">Dashboard</a></li>
         <li><a href="faq.html">FAQ</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <img style="float: right;" src="university-of-applied-sciences.webp" class="img2">
+        <img style="float: right;" src="./images/university-of-applied-sciences.webp" class="img2">
       </ul>
 
-      <h1 class="dashboard" style="color: yellow;"> Dashboard </h1>
+      <h1  class="title"> Dashboard </h1>
             <table>
                 <thead>
                 <tr>
@@ -66,13 +62,10 @@
                 <tr>
                     <td rowspan="5"> 1</td>
                     <td> Program- & Career Orientation (PCO)</td>
-                    <td> Assessment website
-                        (Individual process
-                        assessment)
-                    </td>
+                    <td> Assessment website (Individual process assessment)</td>
                     <td> 2.5</td>
-                    <td> -</td>
-                    <td> ...</td>
+                    <td> 10</td>
+                    <td class="passed"> ...</td>
                 </tr>
                 <tr>
                     <!-- <td> 1</td> -->
@@ -223,6 +216,7 @@
             <div id="myProgress" style="margin: 40px;">
                 <div id="myBar">50%</div>
               </div>
+            <div class="placeholderBox">75% (Can pass to second year)</div>
         
               <!-- <div class="footer">
                 <ol>

@@ -11,18 +11,6 @@
   width: 375px;
   height: 300px;
   object-fit: cover;
-  float: right;
-  margin-right: 150px;
-  margin-top: 300px;
+  float: left;
 }
 
-.box1 {
-  border-width: 2px;
-  border-color: black;
-  padding: 25px;
-  float: left;
-  width: 25%;
-  margin-top: 125px;
-  margin-left: 50px;
-  background-color:lightgray;
-}
